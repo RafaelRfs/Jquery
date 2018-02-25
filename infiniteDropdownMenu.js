@@ -15,11 +15,8 @@ $(function(){
 			li_last.append('<ul class="infinite_menu">');
 			
 			 var ul = li_last.children('ul.infinite_menu');
-			 
-			 console.log('d');
 			
 			for(i in x){
-				
 				ul.append('<li><p>'+x[i].autor+'-'+x[i].titulo+'<a class="getMenu">[+]</a></p></li>');
 			}
 			
